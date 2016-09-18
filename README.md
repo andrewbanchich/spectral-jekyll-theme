@@ -19,6 +19,8 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 * **Automatic sitemap generation** via the [Jekyll Sitemap Generator](https://github.com/jekyll/jekyll-sitemap) plugin.
 * **Automatic RSS/Atom feed generation** via the [Jekyll Feed](https://github.com/jekyll/jekyll-feed) plugin.
 * **Automatic SEO** via the [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) plugin.
+* **Coming soon**: Set **featured images** in front matter. 
+* **Coming soon**: **Front page sections** automatically pull from posts. 
 
 # Credits
 
