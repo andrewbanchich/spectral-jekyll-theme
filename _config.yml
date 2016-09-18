@@ -35,11 +35,11 @@ markdown: kramdown
 
 # Plugin: jekyll-seo-tag
 twitter:
-  username: andrewbanchich
+  username: 
 # Add one or more of the following
 facebook:
   app_id: 
   publisher: 
   admins: 
-logo:
+logo: 
 google_site_verification: 
