@@ -13,10 +13,6 @@ baseurl: "/spectral-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Plugins
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
 
 # Social settings
 500px_url: 
