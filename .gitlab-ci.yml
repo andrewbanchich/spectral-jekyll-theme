@@ -3,7 +3,7 @@ image: ruby
 test:
   stage: test
   script:
-  - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
+  - gem install jekyll
   - jekyll build -d test
   artifacts:
     paths:
@@ -14,7 +14,7 @@ test:
 pages:
   stage: deploy
   script:
-  - gem install jekyll jekyll-sitemap jekyll-seo-tag jekyll-feed
+  - gem install jekyll
   - jekyll build -d public
   artifacts:
     paths:
