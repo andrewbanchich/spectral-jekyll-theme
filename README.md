@@ -2,12 +2,12 @@
 
 A Jekyll version of the "Spectral" theme by [HTML5 UP](https://html5up.net/).
 
-![Spectral Theme](images/spectral.jpg "Spectral Theme")
+![Spectral Theme](assets/images/spectral.jpg "Spectral Theme")
 
 # How to Use
 
-For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
+For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](https://jekyllrb.com/) for all the details,
+or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/),
 and [creating pages](https://jekyllrb.com/docs/pages/).
 
 - **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
@@ -16,8 +16,8 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 # Added Features
 
 * Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* **Coming soon**: Set **featured images** in front matter. 
-* **Coming soon**: Front page sections automatically pull from posts. 
+* **Coming soon**: Set **featured images** in front matter.
+* **Coming soon**: Front page sections automatically pull from posts.
 
 # Credits
 
