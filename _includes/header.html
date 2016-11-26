@@ -3,7 +3,7 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "default" %} class="alt"{% endif %}>
-	<h1><a href="{{ site.url }}{{ site.baseurl }}/">Spectral</a></h1>
+	<h1><a href="{{ "" | absolute_url }}">Spectral</a></h1>
 	<nav id="nav">
 		<ul>
 			<li class="special">
@@ -12,12 +12,12 @@
 					<ul>
                         {% for page in site.pages %}
                         {% if page.layout == "default" %}
-                        <li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
+                        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                         {% for page in site.pages %}
                         {% if page.layout == "page" %}
-                        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
                         {% endif %}
                         {% endfor %}
 					</ul>
