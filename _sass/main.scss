@@ -1332,7 +1332,7 @@
 		}
 
 		.close {
-			background-image: url('assets/images/close.svg');
+			background-image: url('../../assets/images/close.svg');
 			background-position: 4.85em 1em;
 			background-repeat: no-repeat;
 			border: 0;
@@ -1429,7 +1429,7 @@
 							position: relative;
 
 							&:after {
-								background-image: url('assets/images/bars.svg');
+								background-image: url('../../assets/images/bars.svg');
 								background-position: right center;
 								background-repeat: no-repeat;
 								content: '';
@@ -1546,7 +1546,7 @@
 			z-index: 1;
 
 			&:after {
-				background-image: url('assets/images/arrow.svg');
+				background-image: url('../../assets/images/arrow.svg');
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
