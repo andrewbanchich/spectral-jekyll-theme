@@ -6,9 +6,27 @@
 -->
 <html>
 {% include head.html %}
+
 <body>
-{% include header.html %}
-{{ content }}
-{% include footer.html %}
+    {% include header.html %}
+
+    <!-- Main -->
+    <article id="main">
+        <header>
+            <h2>Elements</h2>
+            <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+        </header>
+        <section class="wrapper style5">
+            <div class="inner">
+
+                {{ content }}
+
+
+            </div>
+        </section>
+    </article>
+
+    {% include footer.html %}
 </body>
+
 </html>
