@@ -14,8 +14,8 @@
 
     <!-- Main -->
     <article id="main">
-        <header{% if page.image %} style="background-image: url('{% if site.featured-images-source == false %}{{ "" | absolute_url }}/assets/images/{% endif %}{% if site.featured-images-source == true %}TRUE{{ page.image | prepend: site.featured-images-source | absolute_url }}{% endif %}');"{% endif %}>
-            <h2>{{ page.title }}</h2>
+        <header{% if post.image %} style="background-image: url('{% if site.featured-images-source == false %}{{ "" | absolute_url }}/assets/images/{% endif %}{% if site.featured-images-source == true %}TRUE{{ page.image | prepend: site.featured-images-source | absolute_url }}{% endif %}');"{% endif %}>
+            <h2>{{ post.title }}</h2>
             <p>{{ page.description }}</p>
         </header>
         <section class="wrapper style5">
