@@ -18,7 +18,7 @@
         </header>
         <section class="wrapper style5">
             <div class="inner">
-{% if site.featured-images-source == '' %}<h1>TEST TEST TEST</h1>{{ "" | absolute_url }}assets/images/{% endif %}
+{% unless site.featured-images-source %}<h1>TEST TEST TEST</h1>{{ "" | absolute_url }}assets/images/{% endunless %}
                 {{ content }}
 
             </div>
