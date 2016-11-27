@@ -1,30 +1,25 @@
 <section id="two" class="wrapper alt style2">
 
-{% for post in site.posts limit:site.tiles-count %}
-{% if site.tiles-source == 'posts' %}
+	{% for post in site.posts limit:site.tiles-count %} {% if site.tiles-source == 'posts' %}
 
-<section class="spotlight">
-	<div class="image"><img src="{{ post.image }}" alt="" /></div>
-	<div class="content">
-		<h2><a href="{{ post.url | relative_url }}" class="link">{{ post.title }}</a></h2>
-		<p>{{ post.description }}</p>
-	</div>
-</section>
+	<section class="spotlight">
+		<div class="image"><img src="{{ post.image }}" alt="" /></div>
+		<div class="content">
+			<h2><a href="{{ post.url | relative_url }}" class="link">{{ post.title }}</a></h2>
+			<p>{{ post.description }}</p>
+		</div>
+	</section>
 
-{% endif %}
-{% endfor %}
-{% for page in site.pages limit:site.tiles-count %}
-{% if site.tiles-source == 'pages' %}
+	{% endif %} {% endfor %} {% for page in site.pages limit:site.tiles-count %} {% if site.tiles-source == 'pages' %} {% if page.url == '/index.html' %} {% continue %} {% endif %}
 
-<section class="spotlight">
-	<div class="image"><img src="{{ page.image }}" alt="" /></div>
-	<div class="content">
-		<h2><a href="{{ page.url | relative_url }}" class="link">{{ page.title }}</a></h2>
-		<p>{{ page.description }}</p>
-	</div>
-</section>
+	<section class="spotlight">
+		<div class="image"><img src="{{ page.image }}" alt="" /></div>
+		<div class="content">
+			<h2><a href="{{ page.url | relative_url }}" class="link">{{ page.title }}</a></h2>
+			<p>{{ page.description }}</p>
+		</div>
+	</section>
 
-{% endif %}
-{% endfor %}
+	{% endif %} {% endfor %}
 
 </section>
