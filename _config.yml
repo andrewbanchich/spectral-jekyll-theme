@@ -17,7 +17,7 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 3
 
 # Misc settings
-# featured-images-source: assets/images/
+featured-image-source: assets/images/
 
 # Social settings
 500px_url:
