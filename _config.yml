@@ -16,9 +16,6 @@ url: "" # the base hostname & protocol for your site
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 3
 
-# Misc settings
-featured-image-source:
-
 # Social settings
 500px_url:
 facebook_url:
