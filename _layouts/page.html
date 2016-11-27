@@ -12,7 +12,7 @@
 
     <!-- Main -->
     <article id="main">
-        <header{% if page.image %} style="background-image: url('{% unless site.featured-images-source %}{{ "" | absolute_url }}assets/images/{% endunless %}{{ page.image | prepend: site.featured-images-source | absolute_url }}');" {% endif %}>
+        <header{% if page.image %} style="background-image: url('{% unless site.featured-images-source %}<h1>TEST TEST TEST</h1>{{ "" | absolute_url }}assets/images/{% endunless %}{{ page.image | prepend: site.featured-images-source | absolute_url }}');" {% endif %}>
             <h2>{{ page.title }}</h2>
             <p>{{ page.description }}</p>
         </header>
