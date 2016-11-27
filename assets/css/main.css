@@ -3210,7 +3210,7 @@
 					}
 
 		#menu .close {
-			background-image: url("../../assets/images/close.svg");
+			background-image: url("images/close.svg");
 			background-position: 4.85em 1em;
 			background-repeat: no-repeat;
 			border: 0;
@@ -3327,7 +3327,7 @@
 						}
 
 							#header nav > ul > li > a.menuToggle:after {
-								background-image: url("../../assets/images/bars.svg");
+								background-image: url("images/bars.svg");
 								background-position: right center;
 								background-repeat: no-repeat;
 								content: '';
@@ -3481,7 +3481,7 @@
 		}
 
 			#banner .more:after {
-				background-image: url("../../assets/images/arrow.svg");
+				background-image: url("images/arrow.svg");
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
