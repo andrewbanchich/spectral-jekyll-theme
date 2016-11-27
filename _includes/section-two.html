@@ -10,7 +10,7 @@
 		</div>
 	</section>
 
-	{% endif %} {% endfor %} {% for page in site.pages limit:site.tiles-count %} {% if site.tiles-source == 'pages' %} {% if page.url == '/index.html' %} {% continue %} {% endif %}
+	{% endif %} {% endfor %} {% for page in site.pages limit:site.tiles-count %} {% if site.tiles-source == 'pages' %} {% if page.layout == 'default' %} {% continue %} {% endif %}
 
 	<section class="spotlight">
 		<div class="image"><img src="{{ page.image }}" alt="" /></div>
