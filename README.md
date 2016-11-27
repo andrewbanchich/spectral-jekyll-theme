@@ -2,7 +2,7 @@
 
 A Jekyll version of the "Spectral" theme by [HTML5 UP](https://html5up.net/).
 
-![Spectral Theme](assets/images/spectral.jpg "Spectral Theme")
+![Spectral Theme](screenshot.jpg "Spectral Theme")
 
 # How to Use
 
