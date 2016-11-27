@@ -13,8 +13,8 @@ baseurl: "/spectral-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 3
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
 
 # Social settings
 500px_url:
