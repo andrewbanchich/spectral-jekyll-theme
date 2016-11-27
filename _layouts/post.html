@@ -14,7 +14,7 @@
 
     <!-- Main -->
     <article id="main">
-        <header style="background-image: url('{{ page.image | relative_path }}');">
+        <header style="background-image: url('{{ page.image | absolute_url }}');">
             <h2>{{ page.title }}</h2>
             <p>{{ page.description }}</p>
         </header>
