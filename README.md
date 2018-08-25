@@ -19,6 +19,14 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 * **Coming soon**: Set **featured images** in front matter.
 * **Coming soon**: Front page sections automatically pull from posts.
 
+# Issues
+
+If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/spectral-jekyll-theme) and I will be more than happy to help!
+
+Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/spectral-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/spectral-jekyll-theme@incoming.gitlab.com).
+
+The GitHub repository is simply a mirror of the GitLab repository.
+
 # Credits
 
 Original README from HTML5 UP:
