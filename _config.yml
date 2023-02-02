@@ -1,6 +1,6 @@
 # Site settings
-title: Spectral
-email: youremailaddress@gmail.com
+title: Declan Dawson Taylor
+email: declan.taylor@rogers.com
 description: The Jekyll version of the Spectral theme by HTML5 UP.
 baseurl: "/spectral-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -15,14 +15,14 @@ featured-image-source:
 # Social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url:
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/declan-taylor
+gitlab_url: 
+googleplus_url:
+instagram_url: https://www.instagram.com/declan.dawson/
+linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/Declan_D_Taylor
 
 # Build settings
 markdown: kramdown
